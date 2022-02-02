@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0; /* todo lo que usemos va a llevar una margen de cero, cuando veamos que tiene un * es una etiqueta*/
+}
+
+body{
+    background-color: #e6963b
+;
+}
+
+.header {
+  width: 100%; /*Esto hace que ocupe el 100% de la ventana, esta clase es de nosotros*/
+  z-index: 1;
+}
+
+.headerStyle {
+  color: #e7542f
+  ;
+}
+
+.characters{
+    margin-top: 140px;
+    margin-bottom: 60;
+} /*Esta es una clase para separar el div del otro div, top es arriba y el otro es abajo*/
