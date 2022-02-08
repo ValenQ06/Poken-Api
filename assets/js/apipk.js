@@ -37,11 +37,13 @@ const fillImage = (dataIma) => {
   console.log(dataIma);
   html += '<div class="col">';
   html += '<div class="card h-100">';
-  html += `<img src="${dataIma.sprites.other.dream_world.front_default}" class="card-img-top" alt="...">`;
+  html += `<img src="${dataIma.sprites.other.dream_world.front_default}" class="card-img-top poken">`;
+  html += '<div class="bg-second card-footer">';
   html += '<div class="card-body">';
   html += `<h5 class="card-title">${dataIma.name}</h5>`;
   html += `<p>Altura: ${dataIma.height}</p>`;
   html += `<p>Peso: ${dataIma.weight}</p>`;
+  html += "</div>";
   html += "</div>";
   html += "</div>";
   html += "</div>";
